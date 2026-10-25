@@ -7,12 +7,22 @@ let prixUnitaire = 0;
 switch (codePlat) {
     case 1:
         prixUnitaire = 1500;
+        NamPlat = "Atti?k?-poisson";
+        console.log(`Le plat est ${NamPlat}`);
+        console.log(`Le prix unitaire est : 1500 FCFA`);
         break;
     case 2:
         prixUnitaire = 2000;
+        NamPlat = "Riz-poulet"
+        console.log(`Le plat est ${NamPlat}`);
+        console.log(`Le prix unitaire est : 2000 FCFA`);
         break;
     case 3:
         prixUnitaire = 1000;
+        NamPlat = "Alloco-?uf"
+        console.log(`Le plat est ${NamPlat}`);
+
+        console.log(`Le prix unitaire est : 1000 FCFA`);
         break;
     default:
         throw new Error("Code plat inconnu");
