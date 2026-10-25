@@ -25,4 +25,4 @@ let portion = 1;
 for (portion = 1; portion <= quantité; portion++) {
     console.log(`La portion est : ${portion}`);
 }
-
+console.log(`Nom du client est: ${client} et le total à payer est : ${total}`);
