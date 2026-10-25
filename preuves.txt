@@ -1,6 +1,8 @@
-cas 2 : codeplat = 2; montant=3000 FCFA 
+cas 3 : codeplat = 3; montant=4000 FCFA 
 
 La portion est : 1
 La portion est : 2
+La portion est : 3
+La portion est : 4
 Nom du client est: Awa et le total à payer est : 4000
-vous devez 1000 FCFA, Merci de regler avant de sortir
+Votre compte est exact : 0 FCFA, Merci d'etre passé(e) à bientot!!!
