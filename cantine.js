@@ -26,3 +26,12 @@ for (portion = 1; portion <= quantité; portion++) {
     console.log(`La portion est : ${portion}`);
 }
 console.log(`Nom du client est: ${client} et le total à payer est : ${total}`);
+let Monaie = montant - total;
+if (montant > total) {
+    console.log(`votre monaie est : ${Monaie} FCFA, Merci d'etre passé(e) à bientot!!! `);
+    console.log(``)
+} else if (montant = total) {
+    console.log(`Votre monaie est : ${Monaie} FCFA, Merci de regler avant de sortir`);
+} else {
+    console.log(`vous devez : ${Monaie} FCFA, Merci de regler avant de sortir`);
+};
