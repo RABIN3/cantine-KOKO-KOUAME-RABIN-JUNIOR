@@ -16,3 +16,7 @@ switch (codePlat) {
     default:
         throw new Error("Code plat inconnu");
 };
+function calculerTotal(prixUnitaire, quantité) {
+    return prixUnitaire * quantité;
+}
+let total = calculerTotal(prixUnitaire, quantité);
