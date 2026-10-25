@@ -1,7 +1,7 @@
 let client = "Awa";
-const montant = 5000;
-let codePlat = 1;
-let quantité = Number("3");
+let montant = 3000;
+let codePlat = 2;
+let quantité = Number("2");
 let prixUnitaire = 0;
 switch (codePlat) {
     case 1:
@@ -30,7 +30,7 @@ let Monaie = montant - total;
 if (montant > total) {
     console.log(`votre monaie est : ${Monaie} FCFA, Merci d'etre passé(e) à bientot!!! `);
 } else if (montant === total) {
-    console.log(`Votre monaie est : ${Monaie} FCFA, Merci de regler avant de sortir`);
+    console.log(`Votre compte est exact : ${Monaie} FCFA, Merci d'etre passé(e) à bientot!!!`);
 } else {
-    console.log(`vous devez : ${total - montant} FCFA, Merci de regler avant de sortir`);
+    console.log(`vous devez ${Math.abs(Monaie)} FCFA, Merci de regler avant de sortir`);
 };
