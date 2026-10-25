@@ -1,4 +1,4 @@
-cas 1 : codeplat = 1; montant=5000 FCFA 
+cas 3 : codeplat = 3; montant=4000 FCFA 
 
 Le plat est Attiéké-poisson
 Le prix unitaire est : 1500 FCFA
@@ -15,6 +15,4 @@ Le prix unitaire est : 2000 FCFA
 La portion est : 1
 La portion est : 2
 Nom du client est: Awa et le total à payer est : 4000
- vous devez une somme de 1000 FCFA, veuillez vous reduire votre commande
-
- Cas 3 : codeplat =3; montant=4000 FCFA
+Votre compte est exact : 0 FCFA, Merci d'etre passé(e) à bientot!!!
