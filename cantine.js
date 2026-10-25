@@ -1,13 +1,15 @@
 let client = "Awa";
-let montant = 4000;
-let codePlat = 3;
+let montant = 5000;
+let codePlat = 1;
 let NamPlat;
-let quantité = Number("4");
+
+let quantité = Number("3");
 let prixUnitaire = 0;
+
 switch (codePlat) {
     case 1:
         prixUnitaire = 1500;
-        NamPlat = "Atti?k?-poisson";
+        NamPlat = "Attiéké-poisson";
         console.log(`Le plat est ${NamPlat}`);
         console.log(`Le prix unitaire est : 1500 FCFA`);
         break;
@@ -19,7 +21,7 @@ switch (codePlat) {
         break;
     case 3:
         prixUnitaire = 1000;
-        NamPlat = "Alloco-?uf"
+        NamPlat = "Alloco-œuf"
         console.log(`Le plat est ${NamPlat}`);
 
         console.log(`Le prix unitaire est : 1000 FCFA`);
