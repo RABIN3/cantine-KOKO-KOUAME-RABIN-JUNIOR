@@ -1,9 +1,9 @@
 let client = "Awa";
-let montant = 3000;
-let codePlat = 2;
+let montant = 4000;
+let codePlat = 3;
 let NamPlat;
 
-let quantité = Number("2");
+let quantité = Number("4");
 let prixUnitaire = 0;
 
 switch (codePlat) {
