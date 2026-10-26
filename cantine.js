@@ -2,10 +2,8 @@ let client = "Awa";
 let montant = 4000;
 let codePlat = 3;
 let NamPlat;
-
 let quantité = Number("4");
 let prixUnitaire = 0;
-
 switch (codePlat) {
     case 1:
         prixUnitaire = 1500;
@@ -27,23 +25,25 @@ switch (codePlat) {
         console.log(`Le prix unitaire est : 1000 FCFA`);
         break;
     default:
-        throw new Error("Code plat inconnu");
+        console.log("Code plat inconnu. Veuillez choisir un code entre 1 et 3.");
 };
-function calculerTotal(prixUnitaire, quantité) {
-    return prixUnitaire * quantité;
-}
-let total = calculerTotal(prixUnitaire, quantité);
-let portion = 1;
+if (prixUnitaire > 0) {
+    function calculerTotal(prixUnitaire, quantité) {
+        return prixUnitaire * quantité;
+    }
+    let total = calculerTotal(prixUnitaire, quantité);
+    let portion = 1;
 
-for (portion = 1; portion <= quantité; portion++) {
-    console.log(`La portion est : ${portion}`);
+    for (portion = 1; portion <= quantité; portion++) {
+        console.log(`La portion est : ${portion}`);
+    }
+    console.log(`Nom du client est: ${client} et le total à payer est : ${total}`);
+    let Monaie = montant - total;
+    if (montant > total) {
+        console.log(`votre monaie est : ${Monaie} FCFA, Merci d'etre passé(e) à bientot!!! `);
+    } else if (montant === total) {
+        console.log(`Votre compte est exact : ${Monaie} FCFA, Merci d'etre passé(e) à bientot!!!`);
+    } else {
+        console.log(` vous devez une somme de ${Math.abs(Monaie)} FCFA, veuillez vous reduire votre commande`);
+    };
 }
-console.log(`Nom du client est: ${client} et le total à payer est : ${total}`);
-let Monaie = montant - total;
-if (montant > total) {
-    console.log(`votre monaie est : ${Monaie} FCFA, Merci d'etre passé(e) à bientot!!! `);
-} else if (montant === total) {
-    console.log(`Votre compte est exact : ${Monaie} FCFA, Merci d'etre passé(e) à bientot!!!`);
-} else {
-    console.log(` vous devez une somme de ${Math.abs(Monaie)} FCFA, veuillez vous reduire votre commande`);
-};
