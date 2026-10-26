@@ -1,6 +1,6 @@
 let client = "Awa";
 let montant = 4000;
-let codePlat = 3;
+let codePlat = 5;
 let NamPlat;
 let quantité = Number("4");
 let prixUnitaire = 0;
